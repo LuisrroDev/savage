@@ -392,11 +392,11 @@ h4{
     font-weight: 400;
 }
 .ig{
-    background-image: url(../savage/instagram.svg);
+    background-image: url(../instagram.svg);
     margin-left: 1dvh; /*mov de iconos*/
 }
 .wp{
-    background-image: url(../savage/whatsapp.svg);
+    background-image: url(../whatsapp.svg);
 }
 .ig, .wp{
     display: inline-flex;
