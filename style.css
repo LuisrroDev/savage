@@ -179,6 +179,7 @@ h1::after {
     z-index: 1;
     width: 150px;
     text-align: center;
+    margin: 1px;
 }
 
 .a-bttm a:before {
