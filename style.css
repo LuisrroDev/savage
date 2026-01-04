@@ -179,7 +179,6 @@ h1::after {
     z-index: 1;
     width: 150px;
     text-align: center;
-    margin: 4px;
 }
 
 .a-bttm a:before {
@@ -371,6 +370,10 @@ h2{
     text-transform: uppercase;
     font-size: 14px;
     transition: .5s ease;
+    display: grid;
+    width: fit-content;
+    align-content: center;
+    align-items: center;
 }
 .see:hover{
     background-color: rgb(173, 173, 173);
@@ -463,4 +466,65 @@ footer{
     text-align: center;
     margin-top: 30px;
 }
-
+@media (min-width: 1024px){
+    .scrollPic{
+        /* foto sustituta para pc q sea responsive */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('galley.jpg');
+        background-size: cover;
+        background-position: center top;
+        position: absolute;
+        background-repeat: repeat-y;
+        animation: slowScroll 40s linear infinite;
+        width: 100%;
+        height: 200%;
+        z-index: 0;
+        align-items: end;
+        align-content: center;
+        align-self: center;
+        justify-content: center;
+        justify-self: center;
+        justify-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    @keyframes slowScroll {
+        0% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-20%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    .hero{
+        background-image: none;
+    }
+    nav{
+        position: sticky;
+        z-index: 1;
+    }
+    .products , .trabajos,.store{
+        z-index: 1;
+        position: relative;
+        background-color: white;
+    }
+    .trabajos-desktop{
+        display: flex;
+    }
+    .picard, .cajita1{
+        width: 50%;
+    }
+    .cajita1{
+        align-content: flex-start;
+    }
+    .picard{
+        align-content: flex-end;
+    }
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
