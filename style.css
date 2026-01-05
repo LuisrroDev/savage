@@ -328,6 +328,8 @@ h2{
     background-color: #00000000;
     margin-bottom: 30px;   
     border: solid 2px black;
+    width: 20%;
+    margin-top: 4rem;
 }
 .precio{
     margin-bottom: 1rem;
@@ -546,11 +548,8 @@ footer{
         margin: 6px;
         padding: 8px;
     }
-    .product{
-        width: 20%;
-        margin-top: 4rem;
-    }
 }
+
 
 
 
