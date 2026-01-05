@@ -553,6 +553,14 @@ footer{
     }
 }
 
+@media (max-width: 768px){
+    .product{
+        margin-top: 0;
+        width: auto;
+    }
+}
+
+
 
 
 
