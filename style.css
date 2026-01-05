@@ -555,10 +555,11 @@ footer{
 
 @media (max-width: 768px){
     .product{
-        margin-top: 0;
+        margin-top: 10px;
         width: auto;
     }
 }
+
 
 
 
