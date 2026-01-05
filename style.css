@@ -546,8 +546,12 @@ footer{
         margin: 6px;
         padding: 8px;
     }
-    
+    .product{
+        width: 20%;
+        margin-top: 4rem;
+    }
 }
+
 
 
 
