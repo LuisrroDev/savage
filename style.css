@@ -527,6 +527,11 @@ footer{
         display: flex;
         flex-wrap: wrap;
     }
+    .pic-done-phone {
+    width: 100%;
+    height: 60%;
+}
     
 }
+
 
