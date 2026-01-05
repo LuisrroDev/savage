@@ -512,6 +512,7 @@ footer{
     }
     .trabajos-desktop{
         display: flex;
+        margin: 50px;
     }
     .picard, .cajita1{
         width: 50%;
@@ -528,3 +529,4 @@ footer{
     }
     
 }
+
