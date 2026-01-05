@@ -285,6 +285,9 @@ h2{
     border-radius: 10px;
     border: 1px solid silver;
 }
+.pic-done-desktop{
+    display: none;
+}
 .picard a{
     display: grid;
     color: #fefefe;
@@ -549,6 +552,7 @@ footer{
         padding: 8px;
     }
 }
+
 
 
 
